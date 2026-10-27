@@ -19,3 +19,16 @@ def create_db():
     conn.close()
 
 create_db()
+
+def predict():
+    if inggris > biologi AND inggris > fisika:
+        return "Bahasa"
+    elif biologi > inggris AND biologi > fisika:
+        return "Kedokteran"
+    elif fisika > inggris AND fisika > biologi:
+        return "Teknik"
+    else:
+        return "mending ga usah sekolah"
+
+refresh()
+root.mainloop()
