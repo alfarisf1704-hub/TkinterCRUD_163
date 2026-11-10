@@ -33,6 +33,8 @@ def add_nilai_siswa(biologi, fisika, inggris):
         (biologi, fisika, inggris),
     )
 
+    
+
 
 root = tk.Tk()
 L1= tk.Label(root,text="Sistem Prediksi Prodi Dari Nilai")

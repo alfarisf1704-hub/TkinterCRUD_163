@@ -35,7 +35,7 @@ def submit_data():
     if not nama or not val_bio or not val_fis or not val_ing:
         messagebox.showerror("Error", "Semua kolom harus diisi!")
         return
-
+    
     # Validasi input harus berupa angka
     try:
         bio = int(val_bio)
